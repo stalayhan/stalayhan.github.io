@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>How to integrate Catch2 ? - /home/talayhan</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="How to integrate Catch2 ?">
+<meta itemprop="description" content="You can directly download the single header file(v2.13.3) using this link. https://github.com/catchorg/Catch2/releases/download/v2.13.3/catch.hpp
+If you want to discover the source code please checkout the library with the v2.x branch and copy the catch.hpp file on your source folder.
+git clone -b v2.x https://github.com/catchorg/Catch2.git ls -all Catch2/single_include/catch2/catch.hpp Here is my test folder. Please find the source code below.
+. ├── build ├── CMakeLists.txt ├── inc │ └── catch.hpp └── src └── main.cpp 3 directories, 2 files CMakeLists.">
+<meta itemprop="datePublished" content="2020-12-19T22:04:43&#43;03:00" />
+<meta itemprop="dateModified" content="2020-12-19T22:04:43&#43;03:00" />
+<meta itemprop="wordCount" content="303">
+
+
+
+<meta itemprop="keywords" content="" /><meta property="og:title" content="How to integrate Catch2 ?" />
+<meta property="og:description" content="You can directly download the single header file(v2.13.3) using this link. https://github.com/catchorg/Catch2/releases/download/v2.13.3/catch.hpp
+If you want to discover the source code please checkout the library with the v2.x branch and copy the catch.hpp file on your source folder.
+git clone -b v2.x https://github.com/catchorg/Catch2.git ls -all Catch2/single_include/catch2/catch.hpp Here is my test folder. Please find the source code below.
+. ├── build ├── CMakeLists.txt ├── inc │ └── catch.hpp └── src └── main.cpp 3 directories, 2 files CMakeLists." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/how_to_integrate_catch2/" />
+<meta property="article:published_time" content="2020-12-19T22:04:43+03:00" />
+<meta property="article:modified_time" content="2020-12-19T22:04:43+03:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to integrate Catch2 ?"/>
+<meta name="twitter:description" content="You can directly download the single header file(v2.13.3) using this link. https://github.com/catchorg/Catch2/releases/download/v2.13.3/catch.hpp
+If you want to discover the source code please checkout the library with the v2.x branch and copy the catch.hpp file on your source folder.
+git clone -b v2.x https://github.com/catchorg/Catch2.git ls -all Catch2/single_include/catch2/catch.hpp Here is my test folder. Please find the source code below.
+. ├── build ├── CMakeLists.txt ├── inc │ └── catch.hpp └── src └── main.cpp 3 directories, 2 files CMakeLists."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+	
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="/">/home/talayhan</a></h1>
+	<div class="site-description"><p>Blogging for learning!</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/talayhan" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/talayhans" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="https://www.linkedin.com/in/talayhan" title="Linkedin"><i data-feather="linkedin"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/books">Books</a>
+			</li>
+			
+			<li>
+				<a href="/bookmarks">Bookmarks</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">19</span>
+							<span class="rest">Dec 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">How to integrate Catch2 ?</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>You can directly download the single header file(<strong>v2.13.3</strong>) using this link.
+<a href="https://github.com/catchorg/Catch2/releases/download/v2.13.3/catch.hpp">https://github.com/catchorg/Catch2/releases/download/v2.13.3/catch.hpp</a></p>
+<p>If you want to discover the source code please checkout the library with the v2.x branch and copy the <strong>catch.hpp</strong> file on your source folder.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">git clone -b v2.x https://github.com/catchorg/Catch2.git
+ls -all Catch2/single_include/catch2/catch.hpp
+</code></pre></div><p>Here is my test folder. Please find the source code below.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">.
+├── build
+├── CMakeLists.txt
+├── inc
+│   └── catch.hpp
+└── src
+    └── main.cpp
+
+    3 directories, 2 files
+</code></pre></div><p>CMakeLists.txt</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmake" data-lang="cmake">cmake_minimum_required(<span style="color:#a31515">VERSION</span> <span style="color:#a31515">3.6</span>)<span style="">
+</span><span style=""></span>project(<span style="color:#a31515">catchtest</span>)<span style="">
+</span><span style="">
+</span><span style=""></span>include_directories(${library_INCLUDE_DIRS})<span style="">
+</span><span style="">
+</span><span style=""></span>add_executable(<span style="color:#a31515">catchtest</span> <span style="color:#a31515">src/main.cpp</span>)<span style="">
+</span><span style="">
+</span><span style=""></span>target_link_libraries(<span style="color:#a31515">catchtest</span> ${library_LIBRARIES})<span style="">
+</span></code></pre></div><p>main.cpp</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#00f">#define CATCH_CONFIG_MAIN
+</span><span style="color:#00f">#include</span> <span style="color:#00f">&#34;../inc/catch.hpp&#34;</span><span style="color:#00f">
+</span><span style="color:#00f"></span>
+<span style="color:#2b91af">unsigned</span> <span style="color:#2b91af">int</span> Factorial( <span style="color:#2b91af">unsigned</span> <span style="color:#2b91af">int</span> number ) {
+    <span style="color:#00f">return</span> number &lt;= 1 ? number : Factorial(number-1)*number;
+}
+
+TEST_CASE( <span style="color:#a31515">&#34;Factorials are computed&#34;</span>, <span style="color:#a31515">&#34;[factorial]&#34;</span> ) {
+    REQUIRE( Factorial(1) == 1 );
+    REQUIRE( Factorial(2) == 2 );
+    REQUIRE( Factorial(3) == 6 );
+    REQUIRE( Factorial(10) == 3628800 );
+}
+</code></pre></div><p>Output:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">talayhan@asus /tmp/catchtest                                             [22:29:45]
+&gt; $ cd build
+
+talayhan@asus /tmp/catchtest/build                                       [22:29:46]
+&gt; $ cmake ../
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check <span style="color:#00f">for</span> working C compiler: /usr/bin/cc
+-- Check <span style="color:#00f">for</span> working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - <span style="color:#00f">done</span>
+-- Detecting C compile features
+-- Detecting C compile features - <span style="color:#00f">done</span>
+-- Check <span style="color:#00f">for</span> working CXX compiler: /usr/bin/c++
+-- Check <span style="color:#00f">for</span> working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - <span style="color:#00f">done</span>
+-- Detecting CXX compile features
+-- Detecting CXX compile features - <span style="color:#00f">done</span>
+-- Configuring <span style="color:#00f">done</span>
+-- Generating <span style="color:#00f">done</span>
+-- Build files have been written to: /tmp/catchtest/build
+
+talayhan@asus /tmp/catchtest/build                                       [22:29:49]
+&gt; $ make
+Scanning dependencies of target catchtest
+[ 50%] Building CXX object CMakeFiles/catchtest.dir/src/main.cpp.o
+[100%] Linking CXX executable catchtest
+[100%] Built target catchtest
+
+talayhan@asus /tmp/catchtest/build                                       [22:29:59]
+&gt; $ ./catchtest
+===============================================================================
+All tests passed (4 assertions in 1 test <span style="color:#00f">case</span>)
+
+</code></pre></div><p>References:</p>
+<ol>
+<li><a href="https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md">https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md</a></li>
+<li><a href="https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#getting-catch2">https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#getting-catch2</a></li>
+<li><a href="https://stackoverflow.com/questions/54279898/how-to-integrate-catch2-as-external-library-with-cmake">https://stackoverflow.com/questions/54279898/how-to-integrate-catch2-as-external-library-with-cmake</a></li>
+</ol>
+
+			</div>
+
+			<div class="tags">
+				
+					
+				
+			</div><div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'talayhan-github-io';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the </a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2020  © Copyright notice |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<div id="wcb" class="carbonbadge"></div>
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167806582-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>feather.replace()</script>
+</body>
+</html>

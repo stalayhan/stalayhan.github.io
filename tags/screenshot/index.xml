@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>screenshot on /home/talayhan</title>
+    <link>/tags/screenshot/</link>
+    <description>Recent content in screenshot on /home/talayhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sat, 06 Jun 2020 14:35:06 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/screenshot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Take Pretty Screenshot</title>
+      <link>/posts/pretty_screenshot/</link>
+      <pubDate>Sat, 06 Jun 2020 14:35:06 +0300</pubDate>
+      
+      <guid>/posts/pretty_screenshot/</guid>
+      <description>As you may imagine after complete a project you need to create a pretty, clear, and glaring README file. I believe it&amp;rsquo;s a de facto standard for open-source projects anymore. If you want to create an imposing markdown, you should use visual materials and efficient tongue for your audience.
+Here is one of my favorite tool for creating awesome README and editing screen shots.
+The App is Shutter Unfortunately this app does not exist in the official Manjaro Repos.</description>
+    </item>
+    
+  </channel>
+</rss>
